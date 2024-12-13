@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepperon Pizza </title>
+    <style>
+
+        p{
+           
+           font-size: 24px;
+      text-align: center;
+      margin-bottom: 15px;
+      border-style: outset;
+      border-width: 5px;
+      border-radius: 8px;
+      padding:5px;
+      border-color: aqua;
+      
+        }
+        body{
+           margin:0;
+           padding: 0;
+           background-color: black;
+           line-height: 1.6;
+           color: white;
+        text-align: center;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+        }
+  
+        h1,h2.h3,h4,h4,h6 {
+           color: whitesmoke;
+           font-family: sans-serif;
+        
+           text-align: left;
+        }
+        img{
+          width: 500px;
+          height: 450px;
+          object-fit: cover;
+        }
+  
+        .li-ul{
+         text-align:left;
+         padding-left: 20px;
+      }
+   .li-item   {
+      
+         max-width: 700px;
+    margin-bottom: 10px;
+    text-align:left;
+    line-height: 1.6;
+   }
+     th {
+  background-color: darkgrey;
+  align-items: center;
+  
+        }
+        tr{
+         background-color: darkgrey;  
+  align-items: center;
+        }
+        table{
+           background-color: black;
+     
+        }
+        @media(max-width: 768px) {
+           .image-container{
+              flex-direction:column;
+           }
+        }
+        nav{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: o.4em;
+  
+  }
+  .logo {
+      color: #8abef1;
+      font-size: 24px;
+      font-weight: 700;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 2px  10px;
+  }
+   nav ul{
+      display: flex;
+      gap: 4em;
+      
+  }
+  nav li{
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      
+  }
+  li a {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+  
+  li a:hover{
+      text-decoration: none;
+      transform: scale(1,1);
+      color: #8abef1;
+  }
+  .bar{
+  width: 4px;
+  height: 1.5em;
+  }
+  
+  
+      </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo"> <i class="fa-solid fa-globe"></i>Food For Us </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html" class="sign up"> Sign Up For Monthly Updates</a></li>
+            <li class="bar"></li>
+            <li><i class="fa-solid fa-bell"></i></li>
+            <li><i class="fa-solid fa-share"></i></li>
+          </ul>
+        </nav>
+          </header>
+    <h1>Pepperoni Pizza Recipe: A Slice of Nostalgia and Comfort</h1>
+    <img src="imagess/pizza.jpg" alt="pepperoni pizza">
+    <img src="imagess/another-pizza.jpg" alt="pepperoni pizza">
+    <p>
+        Ah, pepperoni pizza—the ultimate crowd-pleaser and the king of comfort foods. For me, making pizza is more than just cooking; it’s a ritual. It takes me back to late-night cravings during my uni days in London, where the aroma of fresh pizza wafted through every corner of the city. There’s something magical about biting into a slice of perfectly crisp crust, gooey cheese, and those little pepperoni cups that curl and crisp as they bake. This recipe is my go-to when I want to recreate that nostalgia and bring a slice of joy to my dinner table.
+    </p>
+    <h2>Ingredients (Makes 2 Medium Pizza)</h2>
+    <h4>For The Dough:</h4>
+    <table>
+        <tr>
+            <th>Quantity</th>
+            <th>Ingredients</th>
+        </tr>
+        <tr>
+            <td>4 cups</td>
+            <td> all-purpose flour (plus extra for dusting) </td>
+        </tr>
+         <tr>
+            <td>1 tsp</td>
+            <td>salt</td>
+         </tr>
+         <tr>
+            <td>1 tsp</td>
+            <td>sugar</td>
+         </tr>
+         <tr>
+            <td>1 packet</td>
+            <td>instant yeast</td>
+        </tr>
+        <tr>
+            <td>2 cups</td>
+            <td>warm water</td>
+        </tr>
+        <tr>
+            <td>
+                2 tbsp
+            </td>
+            <td>olive oil</td>
+        </tr>
+        <tr>
+            <td>1 cup</td>
+            <td>canned tomatoes</td>
+        </tr>
+        <tr>
+            <td>2 tbsp </td>
+       <td>olive oil</td>
+        </tr>
+        <tr>
+            <td>2 cups</td>
+            <td>shredded mozarella cheese</td>
+        </tr>
+        <tr>
+            <td>2 cups</td>
+            <td>sliced pepperoni</td>
+        </tr>
+
+    </table>
+    <br>
+    <h5>Additional Ingredients</h5>
+    <ul class="li-ul">
+        <li class="li-item">red pepper flakes</li>
+        <li class="li-item">salt and pepper</li>
+        <li class="li-item">garlic</li>
+        <li class="li-item">oregano</li>
+        <li class="li-item">basil</li>
+    </ul>
+    <h3> The method</h3>
+    <ol class=" li-ul">
+        <li class="li-item"><h5>Make the dough</h5>In a large mixing bowl, combine the flour, salt, sugar, and yeast. Slowly add the warm water and olive oil, mixing with a wooden spoon or your hands until the dough comes together.
+ Transfer the dough to a floured surface and knead for about 8 minutes, until smooth and elastic. If the dough feels too sticky, sprinkle in a little more flour.    Place the dough in a lightly oiled bowl, cover it with a damp cloth, and let it rise in a warm spot for about 45 minutes, or until doubled in size.</li>
+    <li class="li-item"><h5>Make the sauce</h5>While the dough is rising, heat olive oil in a small saucepan over medium heat. Add the minced garlic and sauté until fragrant (about 30 seconds).
+
+        Stir in the crushed tomatoes, oregano, basil, salt, and pepper. Let it simmer on low for 10 minutes to thicken slightly. Set aside to cool.</li>
+<li class="li-item"><h5>Assemble the pizza</h5>Preheat your oven to the highest temperature it can go (usually 475°F/245°C). If you have a pizza stone, place it in the oven to heat up.
+
+    Punch down the risen dough and divide it into two equal portions. Roll each portion into a circle (about 12 inches in diameter) on a floured surface. If you prefer a rustic shape, stretch the dough by hand—it adds character!
+    
+    Place the rolled dough on parchment paper or a pizza peel. Spread a thin layer of the sauce over the base, leaving about 1 inch of crust around the edges.
+    
+    Sprinkle mozzarella evenly over the sauce, then layer on the pepperoni slices. I like to overlap them slightly to ensure every bite gets that pepperoni goodness.
+    </li>
+    <li class="li-item"><h5>Bake to perfection</h5>Carefully transfer the pizza to the hot oven (or onto your pizza stone, if using). Bake for 10-12 minutes, or until the crust is golden brown, the cheese is bubbly, and the pepperoni has crisped into those iconic little cups.
+
+        Remove from the oven and let it cool for a couple of minutes before slicing. Garnish with fresh basil leaves or a sprinkle of crushed red pepper flakes, if desired.</li>
+    </ol>
+    <br>
+    <p>
+        Every time I make this pepperoni pizza, I’m reminded of why it’s a classic. From the savory sauce to the crispy edges of the pepperoni, it’s pure perfection in every bite. There’s also a sense of pride in knowing I made this masterpiece from scratch. Sure, you could order delivery, but nothing compares to the smell of freshly baked pizza wafting through your kitchen.
+
+So, what are you waiting for? Grab your rolling pin and make this pepperoni pizza your own. Let me know how it turns out—does it bring you the same joy it brings me? 
+    </p>
+    <footer style="background:linear-gradient(#5B92E5, black); color: white; display: flex; justify-content: space-between;
+  " >
+    &copy; 2024 FOOD FOR US,INC   ALL RIFGTS RESERVED,
+    <br>
+    SITE CREDITS
+    <br>
+    COOKIES SETTINGS ,   PRIVACY POLICY
+    <br>
+    TERMS & CONDITIONS
+  </footer>
+</body>
+</html>
